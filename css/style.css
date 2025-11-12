@@ -1,0 +1,17 @@
+/* css/style.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        /* font-family: 'Inter', sans-serif; */
+    }
+}
+
+@layer components {
+    .btn-primary {
+        @apply bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-blue-700 transition-colors;
+    }
+}   
