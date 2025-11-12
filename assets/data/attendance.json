@@ -1,0 +1,67 @@
+{
+  "today": [
+    {
+      "time": "9:00 - 10:00",
+      "subject": "Mathematics",
+      "status": "Present"
+    },
+    {
+      "time": "10:00 - 11:00",
+      "subject": "Physics",
+      "status": "Pending"
+    },
+    {
+      "time": "11:00 - 12:00",
+      "subject": "Free Period",
+      "status": "N/A"
+    },
+    {
+      "time": "1:00 - 2:00",
+      "subject": "History",
+      "status": "Pending"
+    }
+  ],
+  "history": [
+    {
+      "date": "Oct 28, 2025",
+      "subject": "Mathematics",
+      "status": "Present",
+      "notes": ""
+    },
+    {
+      "date": "Oct 28, 2025",
+      "subject": "Physics",
+      "status": "Present",
+      "notes": ""
+    },
+    {
+      "date": "Oct 27, 2025",
+      "subject": "Physics",
+      "status": "Absent",
+      "notes": "Doctor's appointment"
+    },
+    {
+      "date": "Oct 27, 2025",
+      "subject": "Mathematics",
+      "status": "Present",
+      "notes": ""
+    },
+    {
+      "date": "Oct 26, 2025",
+      "subject": "History",
+      "status": "Present",
+      "notes": ""
+    },
+    {
+      "date": "Oct 26, 2025",
+      "subject": "Mathematics",
+      "status": "Late",
+      "notes": "Bus delay"
+    }
+  ],
+  "summary": {
+    "overall": "92%",
+    "thisMonth": "88%",
+    "absences": "4 Classes"
+  }
+}

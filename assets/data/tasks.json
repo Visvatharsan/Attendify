@@ -1,0 +1,50 @@
+[
+  {
+    "id": "t1",
+    "title": "Physics: Projectile Motion Quiz",
+    "description": "This is a short multiple-choice quiz to test your understanding of projectile motion concepts, including range, height, and time of flight.",
+    "resources": [
+      "Chapter 4, Physics Textbook",
+      "Online simulation link (coming soon)"
+    ],
+    "duration": 15,
+    "subject": "Physics",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "t2",
+    "title": "Math: Algebra Review",
+    "description": "Complete the attached worksheet on solving linear and quadratic equations. This will help prepare you for the upcoming exam.",
+    "resources": [
+      "Worksheet (to be attached)",
+      "Khan Academy video on quadratics"
+    ],
+    "duration": 30,
+    "subject": "Math",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "t3",
+    "title": "History: Research Topic Brainstorm",
+    "description": "Brainstorm five potential topics for your upcoming research paper on World War II. Write a brief 2-3 sentence summary for each.",
+    "resources": [
+      "Library database search guide",
+      "List of approved topic areas"
+    ],
+    "duration": 20,
+    "subject": "History",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "t4",
+    "title": "CS: Python Function Practice",
+    "description": "Write three simple Python functions: one to find the factorial of a number, one to check for a palindrome, and one to reverse a string.",
+    "resources": [
+      "Python.org documentation on functions",
+      "W3Schools Python tutorial"
+    ],
+    "duration": 45,
+    "subject": "Computer Science",
+    "difficulty": "Medium"
+  }
+]
