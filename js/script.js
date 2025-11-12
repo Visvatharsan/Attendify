@@ -7,17 +7,37 @@ $(function() {
     console.log("Document is ready! jQuery is working.");
 
     // --- Mobile Menu Toggle ---
-    // Find the button with the ID 'mobile-menu-button'
-    // and when it's clicked...
     $('#mobile-menu-button').on('click', function() {
-        
-        // Find the menu with the ID 'mobile-menu'
-        // and toggle the 'hidden' class.
-        // .slideToggle() is a nice jQuery animation
         $('#mobile-menu').slideToggle(); 
+    });
 
-        // Optional: Change the hamburger icon to a close icon (X)
-        // This requires a bit more setup, but 'slideToggle' is the main function.
+
+    // --- Shared Modal Logic ---
+    
+    // Get the modal and buttons
+    const modal = $('#shared-modal');
+    const openBtn = $('#open-modal-btn');
+    
+    // All buttons that should close the modal
+    // We use classes here so multiple buttons can close it
+    const closeBtns = $('.close-modal-btn-secondary, #close-modal-btn');
+
+    // Open the modal
+    openBtn.on('click', function() {
+        modal.fadeIn(200); // Use .fadeIn() for a nice effect
+    });
+
+    // Close the modal when a close button is clicked
+    closeBtns.on('click', function() {
+        modal.fadeOut(200); // Use .fadeOut()
+    });
+
+    // Close the modal when the user clicks on the dark overlay
+    modal.on('click', function(event) {
+        // Check if the click is on the overlay itself, not the content
+        if (event.target === modal[0]) {
+            modal.fadeOut(200);
+        }
     });
 
 });
