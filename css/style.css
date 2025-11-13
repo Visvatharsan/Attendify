@@ -11,7 +11,24 @@
 }
 
 @layer components {
+    /* ----- Button ----- */
     .btn-primary {
         @apply bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-blue-700 transition-colors;
     }
-}   
+
+    /* ----- Modal ----- */
+    /* The dark background overlay */
+    .modal-overlay {
+        @apply fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50;
+    }
+    
+    /* The white modal content box */
+    .modal-content {
+        @apply bg-white rounded-lg shadow-xl w-full max-w-lg p-6;
+    }
+    
+    /* A secondary close button style */
+    .close-modal-btn-secondary {
+        @apply px-4 py-2 bg-gray-200 text-gray-800 rounded-md hover:bg-gray-300;
+    }
+}
